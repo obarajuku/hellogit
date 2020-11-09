@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-size:12px;
+            background-color: lightgrey;
+            position: relative;
+        }
+        a{
+            color:red;
+        }
+        .main{
+            position: absolute;
+            top: 5%;
+            margin: 0 auto;
+            background-color: white;
+            padding: 50px 50px;
+        }
+        .title_name{
+            display: inline-block;
+            text-align: left;
+        }
+        .robot_img{
+            position: relative;
+        }
+        .robot_img p{
+            position: absolute;
+            font-size: 15px;
+            color: #ffffff;
+            left: 5%;
+        }
+        .robot_img p.p1{
+            top: 25%;
+        }
+        .robot_img p.p2{
+            top: 35%;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1 class="title_name">練習用</h1>
+        <a href="#">リンクは飛ばないよ</a>
+        <h2>タイトル</h2>
+        <p>なんかのロボットです</p>
+        <div class="robot_img">
+            <img src="./img/robot.png" alt="サンプル" width="300" height="200"/>
+            <p class="p1">ウイーーン</p>
+            <p class="p2">がしゃーん</p>
+        </div>
+    </div>
+</body>
+</html>
