@@ -56,10 +56,6 @@ li {
   -webkit-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .12);
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .12);
 }
-/* ヘッダー */
-.header{
-
-}
 
 /*--------------------------------
  文字
@@ -116,7 +112,7 @@ li {
   align-items: center;
   justify-content: center;
   height: 86vh;
-  background-image: url("../img/TAO/IMG_7190-min.jpeg");
+  background-image: url("../img/TAO/IMG_7190.jpg");
   background-position: right center; 
   background-size: cover;
 }
