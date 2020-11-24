@@ -4,30 +4,61 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/modern-css-reset/dist/reset.min.css"
+    />
     <style>
-      header{
-        border-width:0.5px;
-        border-bottom-style: solid;
-        border-color: #bcc6d1;
-        width: 800px;
+      body {
+        color: rgb(18, 68, 116);
+      }
+      .outer {
+        margin: 0 auto;
+        max-width: 800px;
+      }
+      header {
+        opacity: 0.5;
+      }
+      .title {
+        background-color: rgb(18, 68, 116);
+        color: rgba(255, 255, 255, 0.92);
+        padding: 1px 16px 0;
+      }
+      section {
+        padding: 0 17px;
+      }
+      section h2 {
+        margin-top: 16px;
+      }
+      footer {
+        margin-top: 24px;
+        text-align: center;
       }
     </style>
   </head>
   <body>
-    <header>
-      <img src="./img/logo_header.jpg"  height="50" alt="ヘッダーロゴ画像"/>
-    </header>
-    <div class="main">
-      <!-- zen coding emmet -->
-      <div class="hello-class"></div>
-
-      <div class="my-photo">
-        <img src="" alt="" >
-      <div class="introduction"></div>
+    <div class="outer">
+      <header>
+        <div class="logo">Obarajuku</div>
+      </header>
+      <div class="main">
+        <h1 class="title">Class of 2020</h1>
+        <section>
+          <h2>people</h2>
+          <ul>
+            <li><a href="./people/Ando">Ando</a></li>
+            <li><a href="./people/eimy">eimy</a></li>
+            <li><a href="./people/goto">goto</a></li>
+            <li><a href="./people/kuwabara">kuwabara</a></li>
+            <li><a href="./people/Matsubara">Matsubara</a></li>
+            <li><a href="./people/shimamoto">shimamoto</a></li>
+            <li><a href="./people/tado">tado</a></li>
+          </ul>
+        </section>
+      </div>
+      <footer>
+        <div>(C) obarajuku 2020</div>
+      </footer>
     </div>
-    <footer>
-      <div>(C) obarajuku 2020</div>
-      <img src="" alt="フッター画像" />
-    </footer>
   </body>
 </html>
