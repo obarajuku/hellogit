@@ -4,58 +4,86 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/modern-css-reset/dist/reset.min.css"
-    />
-    <style>
-      body {
-        color: rgb(18, 68, 116);
-      }
-      .outer {
-        margin: 0 auto;
-        max-width: 800px;
-      }
-      header {
-        opacity: 0.5;
-      }
-      .title {
-        background-color: rgb(18, 68, 116);
-        color: rgba(255, 255, 255, 0.92);
-        padding: 1px 16px 0;
-      }
-      section {
-        padding: 0 17px;
-      }
-      section h2 {
-        margin-top: 16px;
-      }
-      footer {
-        margin-top: 24px;
-        text-align: center;
-      }
-    </style>
+    <link rel="stylesheet" href="./top.css" />
   </head>
   <body>
     <div class="outer">
       <header>
-        <div class="logo">Obarajuku</div>
+        <div class="logo-outer">
+          <h1 class="logo">OBARAJUKU</h1>
+        </div>
+        <ul class="nav">
+          <li>nav</li>
+          <li>nav</li>
+          <li>nav</li>
+        </ul>
       </header>
       <div class="main">
-        <h1 class="title">Class of 2020</h1>
-        <section>
-          <h2>people</h2>
+        <section class="key-visual">
+          <figure class="flex-center">
+            <p>TBD</p>
+          </figure>
+        </section>
+        <section class="director">
+          <h2>ABOUT</h2>
+        </section>
+        <section class="people">
+          <h2>Programmers</h2>
           <ul>
-            <li><a href="./people/Ando">Ando</a></li>
-            <li><a href="./people/eimy">eimy</a></li>
-            <li><a href="./people/goto">goto</a></li>
-            <li><a href="./people/kuwabara">kuwabara</a></li>
-            <li><a href="./people/Matsubara">Matsubara</a></li>
-            <li><a href="./people/shimamoto">shimamoto</a></li>
-            <li><a href="./people/tado">tado</a></li>
+            <li>
+              <a href="./people/Ando">
+                <figure class="person flex-center">
+                  <p>TBD</p>
+                </figure>
+                <div class="name">Ando</div>
+              </a>
+            </li>
+            <li>
+              <a href="./people/goto">
+                <figure class="person flex-center">
+                  <p>TBD</p>
+                </figure>
+                <div class="name">goto</div>
+              </a>
+            </li>
+            <li>
+              <a href="./people/kuwabara">
+                <figure class="person flex-center">
+                  <p>TBD</p>
+                </figure>
+                <div class="name">kuwabara</div>
+              </a>
+            </li>
+            <li>
+              <a href="./people/Matsubara">
+                <figure class="person flex-center">
+                  <p>TBD</p>
+                </figure>
+                <div class="name">Matsubara</div>
+              </a>
+            </li>
+            <li>
+              <a href="./people/shimamoto">
+                <figure class="person flex-center">
+                  <p>TBD</p>
+                </figure>
+                <div class="name">shimamoto</div>
+              </a>
+            </li>
+            <li>
+              <a href="./people/tado">
+                <figure class="person flex-center">
+                  <p>TBD</p>
+                </figure>
+                <div class="name">tado</div>
+              </a>
+            </li>
           </ul>
         </section>
       </div>
+      <section class="director">
+        <h2>Director</h2>
+      </section>
       <footer>
         <div>(C) obarajuku 2020</div>
       </footer>
