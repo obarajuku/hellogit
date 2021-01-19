@@ -87,7 +87,7 @@ li {
  レイアウト
 ---------------------------------*/
 .wrapper {
-  padding-top: 68px;
+  padding-bottom: 68px;
 }
 
 .section {
@@ -112,6 +112,10 @@ li {
   align-items: center;
   justify-content: center;
   height: 86vh;
+  background-image: url("img/backimage.jpg");
+  background-position: right center; 
+  background-size: cover;
+ 
 }
 
 .logo {
@@ -126,21 +130,22 @@ li {
   font-size: 64px;
   line-height: 1;
   letter-spacing: .2em;
+  color: #e1ebfc;
 }
 
 .logo-subtitle {
   font-size: 20px;
   margin-top: 5px;
   text-align: center;
-  letter-spacing: .2em;
+  letter-spacing: .4em;
+  color: rgba(175, 225, 245, 0.863);
 }
-
 /*--------------------------------
  グローバルナビ
 ---------------------------------*/
 .gnav {
   position: fixed;
-  top: 0;
+  bottom: 0;
   left: 0;
   z-index: 100;
   width: 100%;
@@ -433,6 +438,7 @@ li {
   cursor: pointer;
   text-align: center;
   background-color: #ccc;
+  background-image:url("img/backiage.jpg");
 }
 
 /*media Queries 767
