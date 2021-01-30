@@ -119,6 +119,7 @@ ul.people li {
 }
 ul.people li figure {
   width: 100px;
+  display: inline-block;
 }
 ul.people li figure img {
   width: 100px;
