@@ -10,30 +10,35 @@
     <div class="outer">
       <header>
         <div class="logo-outer">
-          <h1 class="logo">OBARAJUKU</h1>
+          <h1 class="logo">Obarajuku</h1>
         </div>
         <ul class="nav">
-          <li>nav</li>
-          <li>nav</li>
-          <li>nav</li>
+          <li><a href="#ABOUT">ABOUT</a></li>
+          <li><a href="">WORKS</a></li>
+          <li><a href="#MEMBERS">MEMBERS</a></li>
         </ul>
       </header>
       <div class="main">
         <section class="key-visual">
           <figure class="flex-center">
-            <p>TBD</p>
+            <img src="./img/people.bw.jpeg" />
           </figure>
         </section>
-        <section class="director">
+        <section class="about" id="ABOUT">
           <h2>ABOUT</h2>
+          <p>
+            おばら塾はWeb系の勉強会です。本プロジェクト(2020-2021)では基本的な
+            HTML/CSS/JS とデザイン、コラボレーション手法(Git/Github)
+            等について学びました。MEMBERSのそれぞれのページで作品を見ることができます。
+          </p>
         </section>
-        <section class="people">
-          <h2>Programmers</h2>
-          <ul>
+        <section class="members" id="MEMBERS">
+          <h2>MEMBERS</h2>
+          <ul class="people">
             <li>
               <a href="./people/Ando">
                 <figure class="person flex-center">
-                  <p>TBD</p>
+                  <img src="./img/nobody.png" />
                 </figure>
                 <div class="name">Ando</div>
               </a>
@@ -41,7 +46,7 @@
             <li>
               <a href="./people/goto">
                 <figure class="person flex-center">
-                  <p>TBD</p>
+                  <img src="./img/nobody.png" />
                 </figure>
                 <div class="name">goto</div>
               </a>
@@ -49,23 +54,28 @@
             <li>
               <a href="./people/kuwabara">
                 <figure class="person flex-center">
-                  <p>TBD</p>
+                  <img src="./img/nobody.png" />
                 </figure>
                 <div class="name">kuwabara</div>
               </a>
             </li>
+          </ul>
+          <ul class="people">
             <li>
               <a href="./people/Matsubara">
                 <figure class="person flex-center">
-                  <p>TBD</p>
+                  <img src="./img/nobody.png" />
                 </figure>
                 <div class="name">Matsubara</div>
               </a>
             </li>
             <li>
               <a href="./people/shimamoto">
-                <figure class="person flex-center">
-                  <p>TBD</p>
+                <figure
+                  class="person flex-center medal"
+                  title="メダル: リーダー"
+                >
+                  <img src="./img/nobody.png" />
                 </figure>
                 <div class="name">shimamoto</div>
               </a>
@@ -73,7 +83,7 @@
             <li>
               <a href="./people/tado">
                 <figure class="person flex-center">
-                  <p>TBD</p>
+                  <img src="./img/nobody.png" />
                 </figure>
                 <div class="name">tado</div>
               </a>
@@ -83,9 +93,59 @@
       </div>
       <section class="director">
         <h2>Director</h2>
+        <ul class="people">
+          <li>
+            <figure class="person flex-center">
+              <img src="./img/nobody.png" />
+            </figure>
+            <div class="name">eimy</div>
+          </li>
+        </ul>
+      </section>
+      <section class="instructor">
+        <h2>Instructor</h2>
+        <ul class="people">
+          <li>
+            <figure class="person flex-center">
+              <img src="./img/nobody.png" />
+            </figure>
+            <div class="name">小原 崇 (おばラボ)</div>
+          </li>
+        </ul>
       </section>
       <footer>
-        <div>(C) obarajuku 2020</div>
+        <ul class="nav">
+          <li><a href="#ABOUT">ABOUT</a></li>
+          <li>WORKS</li>
+          <li>
+            <p><a href="#MEMBERS">MEMBERS</a></p>
+            <ul class="members">
+              <li>
+                <a href="./people/Ando"><div class="name">Ando</div></a>
+              </li>
+              <li>
+                <a href="./people/goto"><div class="name">goto</div></a>
+              </li>
+              <li>
+                <a href="./people/kuwabara"><div class="name">kuwabara</div></a>
+              </li>
+              <li>
+                <a href="./people/Matsubara">
+                  <div class="name">Matsubara</div>
+                </a>
+              </li>
+              <li>
+                <a href="./people/shimamoto">
+                  <div class="name">shimamoto</div>
+                </a>
+              </li>
+              <li>
+                <a href="./people/tado"><div class="name">tado</div></a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <p class="copyright">(C) obarajuku 2021</p>
       </footer>
     </div>
   </body>
