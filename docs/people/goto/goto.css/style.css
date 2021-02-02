@@ -1,0 +1,20 @@
+img {
+  border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+  width:  180px;       /* ※縦横を同値に */
+  height: 180px;       /* ※縦横を同値に */
+}
+
+body {
+  color: #666;
+  background-color: #444;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+  color: rgb(255, 255, 255);
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  font-size: 60px;
+}
