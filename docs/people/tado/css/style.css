@@ -3,6 +3,8 @@
 *:after {
   box-sizing: border-box;
 }
+/* カラーパレット */
+
 
 body {
   font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",
@@ -12,12 +14,12 @@ body {
   line-height: 1.8;
   letter-spacing: .8px;
   word-break: break-all;
-  color: #333;
+  color: #801F12;
 }
 
 a {
   text-decoration: none;
-  color: #1ca9e3;
+  color: #CB5A4B;
 }
 
 img {
@@ -95,7 +97,7 @@ li {
 }
 
 .section:nth-of-type(odd) {
-  background-color: #f7f7f7;
+  background-color: #F1CE7C;
 }
 
 .inner {
